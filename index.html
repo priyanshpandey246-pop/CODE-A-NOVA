@@ -4,353 +4,339 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Healthcare Management System</title>
+    <title>Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 </head>
 
 <body>
-
     <header>
-        <a href="#" class="logo"><span>D</span>octors<span>C</span>ares.</a>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#home">home</a></li>
-                <li><a href="#about">about</a></li>
-                <li><a href="#doctor">doctor</a></li>
-                <li><a href="#review">review</a></li>
-                <li><a href="#contact">contact</a></li>
-            </ul>
-        </nav>
-
-        <div id="menu-bars" class="fas fa-bars"></div>
+        <div class="logo"><span>P</span>riyansh.</div>
+        <ul class="navlist">
+            <li><a href="#home" style="--i:1">Home</a></li>
+            <li><a href="#about" style="--i:2">About</a></li>
+            <li><a href="#services" style="--i:3">Services</a></li>
+            <li><a href="#skills" style="--i:4">Skills</a></li>
+            <li><a href="#portfolio" style="--i:5">Portfolio</a></li>
+            <li><a href="#contact" style="--i:6">Contact</a></li>
+        </ul>
+        <i class='bx bx-menu' id="menu-icon"></i>
     </header>
 
     <section id="home" class="home">
-        <div class="row">
-            <div class="images">
-                <img src="home2.png" alt="">
+        <div class="home-content">
+            <h1>Hi! I'm Priyansh Pandey </h1>
+            <div class="change-text">
+                <h3>And I"m</h3>
+                <h3>
+                    <span class="word">Web&nbsp;designer</span>
+                    <span class="word">Frontend&nbsp;Developer</span>
+                    <span class="word">And&nbsp;aspiring&nbsp;data&nbsp;science</span>
+
+                </h3>
             </div>
 
-            <div class="content">
-                <h1><span>Stay</span> Safe, <span>Stay</span>Healthy.</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est iste tempore, dignissimos illo sint
-                    repellendus sunt quidem doloremque ab eius eum voluptatem asperiores minus animi numquam voluptates
-                    sequi alias in!</p>
-                <a href="#"><button class="button">Read More</button></a>
+            <p>Frontend Developer Intern | Aspiring Full Stack Developer | Data Science Enthusiast, Passionate about
+                building responsive and user friendly web applications.</p>
+            <div class="info-box">
+                <div class="eamil-info">
+                    <h5>Email :</h5>
+                    <span>priyanshpandey246@gmail.com</span>
+                </div>
+
+            </div>
+
+            <div class="btn-box">
+                <a href="resume.pdf" download="Priyansh_CV.pdf" class="btn">Download CV</a>
+                <a href="mailto:priyanshpandey246@gmail.com" class="btn">Hire me Now</a>
+            </div>
+
+            <div class="social-icons">
+                <a href="https://www.instagram.com/priyansh_pandey1889?igsh=MW5zcTBwc3psY2kwcw=="><i
+                        class="bx bxl-instagram"></i></a>
+
+                <a
+                    href="https://www.linkedin.com/in/priyansh-pandey-39b146314?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                        class="bx bxl-linkedin"></i></a>
+
+                <a href="https://github.com/priyanshpandey246-pop"><i class="bx bxl-github"></i></a>
             </div>
         </div>
+
+        <div class="home-image">
+            <div class="img-box">
+                <img src="bio.jpeg">
+            </div>
+        </div>
+        </div>
+
     </section>
 
     <section id="about" class="about">
-        <h1 class="heading">About our facility</h1>
-        <h3 class="title">Learn and explore our facility</h3>
+        <div class="img-about">
+            <img src="bio.jpeg">
+            <div class="info-about1">
+                <span>3+</span>
+                <p>Projects <br> Completed</p>
+            </div>
+            <div class="info-about2">
+                <span>3</span>
+                <p>Internship Completed</p>
+            </div>
+            <div class="info-about3">
+                <span>100+</span>
+                <p>Hours of Learning</p>
+            </div>
+        </div>
 
-        <div class="box-container">
-            <div class="box">
-                <div class="images">
-                    <img src="home3.jpg" alt="">
-                </div>
+        <div class="about-content">
+            <span>Let me Introduce Myself</span>
+            <h2>About Me</h2>
+            <h3>Frontend Developer & Lifelong Learner</h3>
+            <p>I am a Frontend Developer passionate about creating responsive and user-friendly websites.
+                I have worked on projects such as a Healthcare Management System, Netflix Clone, Weather App,
+                and various JavaScript-based applications. I am currently enhancing my skills in React.js,
+                Data Science, and modern web development technologies.</p>
 
-                <div class="content">
-                    <h3>Ambulance services</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa non quo et laboriosam nihil
-                        eveniet, id harum temporibus laudantium corrupti?</p>
-                    <a href="#"><button class="button">Learn More</button></a>
+            <div class="btn-box">
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="services" class="services">
+        <div class="main-text">
+            <span>What i will do for you</span>
+            <h2>Our services</h2>
+        </div>
+
+        <div class="section-services">
+            <div class="service-box">
+                <i class='bx bx-layer service-icon'></i>
+                <h3>Responsive Design</h3>
+                <p>Building mobile-friendly websites that adapt seamlessly to desktops, tablets, and smartphones for the
+                    best user experience.</p>
+                <div class="btn-box service-btn">
+                    <a href="#" class="btn">Read More</a>
                 </div>
             </div>
-
-            <div class="box">
-                <div class="images">
-                    <img src="Eg.png" alt="">
-                </div>
-
-                <div class="content">
-                    <h3>Emergency Rooms</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa non quo et laboriosam nihil
-                        eveniet, id harum temporibus laudantium corrupti?</p>
-                    <a href="#"><button class="button">Learn More</button></a>
+            <div class="service-box">
+                <i class='bx bx-code-alt service-icon'></i>
+                <h3>Frontend Development</h3>
+                <p>Creating responsive and user-friendly websites using HTML, CSS, JavaScript, and React.js with a focus
+                    on performance and modern design.</p>
+                <div class="btn-box service-btn">
+                    <a href="#" class="btn">Read More</a>
                 </div>
             </div>
+            <div class="service-box">
+                <i class='bx bx-desktop service-icon'></i>
+                <h3>Web Design</h3>
+                <p>Designing clean, modern, and visually appealing website layouts that provide an engaging user
+                    experience across all devices.</p>
+                <div class="btn-box service-btn">
+                    <a href="#" class="btn">Read More</a>
+                </div>
+    </section>
 
-            <div class="box">
-                <div class="images">
-                    <img src="health.png" alt="">
+    <section id="skills" class="skills">
+        <div class="main-text">
+            <span>technical and professional</span>
+            <h2>My Skills</h2>
+        </div>
+
+        <div class="skill-main">
+            <div class="skill-left">
+                <h3>Technical Skills</h3>
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>HTML</p>
+                        <P>85%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="html"></span>
+                    </div>
                 </div>
 
-                <div class="content">
-                    <h3>Free Health checkups</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa non quo et laboriosam nihil
-                        eveniet, id harum temporibus laudantium corrupti?</p>
-                    <a href="#"><button class="button">Learn More</button></a>
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>css</p>
+                        <P>90%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="css"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>JavaScript</p>
+                        <P>62%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="javascript"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>React.js</p>
+                        <P>40%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="react"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-right">
+                <h3>Professional Skills</h3>
+                <div class="professional">
+                    <div class="box">
+                        <div class="circle" data-dots="50" data-percent="90"></div>
+                        <div class="text">
+                            <big>90%</big>
+                            <small>Team Work</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="50" data-percent="80"></div>
+                        <div class="text">
+                            <big>80%</big>
+                            <small>Creativity</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="50" data-percent="55"></div>
+                        <div class="text">
+                            <big>55%</big>
+                            <small>Project Management</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="50" data-percent="70"></div>
+                        <div class="text">
+                            <big>70%</big>
+                            <small>Communication</small>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="doctor" class="card">
+    <section id="portfolio" class="portfolio">
+        <div class="main-text">
+            <span>What i will do for you</span>
+            <h2>Latest Project</h2>
+        </div>
+
         <div class="container">
-            <h1 class="heading">doctors</h1>
-            <h3 class="title">our professional doctors</h3>
-            <div class="box-container">
-                <div class="box">
-                    <img src="doctor1.jpg">
+            <div class="filter-buttons">
+                <button class="button" data-filter="all">All</button>
+                <button class="button" data-filter=".product">Product</button>
+                <button class="button" data-filter=".inter">Interacting</button>
+                <button class="button" data-filter=".web">Web app</button>
+            </div>
 
-                    <div class="content">
-                        <a href="#">
-                            <h2>John doe</h2>
-                        </a>
-                        <p>Professional</p>
-
-                        <div class="icons">
-                            <a href="#" class="fab fa-facebook-f"></a>
-                            <a href="#" class="fab fa-twitter"></a>
-                            <a href="#" class="fab fa-instagram"></a>
-                        </div>
-
-                        <button class="Know-more-btn" onclick="toggleInfo('doctor1-info')">Know More</button>
-
-                        <div id="doctor1-info" class="doctor-info">
-                            <h3>Dr. John Doe</h3>
-                            <p><strong>Specialization:</strong>Cardiology</p>
-                            <p><strong>Experience:</strong>10 Years</p>
-                            <p><strong>Qualification:</strong>MBBS, MD</p>
-                            <p><strong>Timing:</strong>9:00 AM - 5:00 PM</p>
-                        </div>
+            <div class="portfolio-gallery">
+                <div class="port-box mix product">
+                    <div class="port-image">
+                        <img src="web1.jpg">
+                    </div>
+                    <div class="port-content">
+                        <h3>Weather App</h3>
+                        <p>A responsive weather applications that fetches real-time weather data using API and shows
+                            tempeerature, humidity, and loc ation details.</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
                     </div>
                 </div>
-
-
-                <div class="box">
-                    <img src="doctor2.jpg">
-
-                    <div class="content">
-                        <a href="#">
-                            <h2>Mira Callahan</h2>
-                        </a>
-                        <p>Professional</p>
-
-                        <div class="icons">
-                            <a href="#" class="fab fa-facebook-f"></a>
-                            <a href="#" class="fab fa-twitter"></a>
-                            <a href="#" class="fab fa-instagram"></a>
-                        </div>
-                        <button class="Know-more-btn" onclick="toggleInfo('doctor2-info')">
-                            Know More
-                        </button>
-
-                        <div id="doctor2-info" class="doctor-info">
-                            <h3>Dr. Mira Callahan</h3>
-                            <p><strong>Specialization:</strong> Neurology</p>
-                            <p><strong>Experience:</strong> 8 Years</p>
-                            <p><strong>Qualification:</strong> MBBS, DM</p>
-                            <p><strong>Timing:</strong> 10:00 AM - 6:00 PM</p>
-                        </div>
+                <div class="port-box mix product">
+                    <div class="port-image">
+                        <img src="web2.jpg">
+                    </div>
+                    <div class="port-content">
+                        <h3>Healthcare Management System</h3>
+                        <p>A responsive healthcare management web application that helps users book doctor appointment,
+                            view doctor details, and manage patient information in a simple and organized interface</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
                     </div>
                 </div>
-
-
-                <div class="box">
-                    <img src="doctor3.jpg">
-
-                    <div class="content">
-                        <a href="#">
-                            <h2>Zara Lim</h2>
-                        </a>
-                        <p>Professional</p>
-
-                        <div class="icons">
-                            <a href="#" class="fab fa-facebook-f"></a>
-                            <a href="#" class="fab fa-twitter"></a>
-                            <a href="#" class="fab fa-instagram"></a>
-                        </div>
-                        <button class="Know-more-btn" onclick="toggleInfo('doctor3-info')">
-                            Know More
-                        </button>
-
-                        <div id="doctor3-info" class="doctor-info">
-                            <h3>Dr. Zara Lim</h3>
-                            <p><strong>Specialization:</strong> Pediatrics</p>
-                            <p><strong>Experience:</strong> 7 Years</p>
-                            <p><strong>Qualification:</strong> MBBS, DCH</p>
-                            <p><strong>Timing:</strong> 11:00 AM - 4:00 PM</p>
-                        </div>
+                <div class="port-box mix inter">
+                    <div class="port-image">
+                        <img src="web3.jpg">
+                    </div>
+                    <div class="port-content">
+                        <h3>Netflix Clone</h3>
+                        <p>A responsive Netflix homepage clone that replicates the UI layout with movie banners,
+                            categories, and a modern streaming platform design using HTML and CSS</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
                     </div>
                 </div>
-            </div>
-
-    </section>
-
-    <section id="review" class="review">
-        <h1 class="heading">Our patient review</h1>
-        <h3 class="title">What patient says about us</h3>
-
-        <div class="box-container">
-            <div class="box">
-                <i class="fas fa-quote-left"></i>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, itaque quas accusamus tenetur officiis
-                    sint earum numquam dolor aliquam temporibus corporis sit non ea! Necessitatibus?</p>
-
-                <div class="images">
-                    <img src="review.jpeg" alt="">
-
-                    <div class="info">
-                        <h3>Brien</h3>
-                        <span>date : 11 2026</span>
+                <div class="port-box mix inter">
+                    <div class="port-image">
+                        <img src="web4.jpeg">
+                    </div>
+                    <div class="port-content">
+                        <h3>Dodge Game</h3>
+                        <p>An interactive browser-based game where the player avoids obstacles using keyboard
+                            controls,built using HTML,CSS,and javascript for logic and movement handling.</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
                     </div>
                 </div>
-            </div>
-
-            <div class="box">
-                <i class="fas fa-quote-left"></i>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, itaque quas accusamus tenetur officiis
-                    sint earum numquam dolor aliquam temporibus corporis sit non ea! Necessitatibus?</p>
-
-                <div class="images">
-                    <img src="review2.jpg" alt="">
-
-                    <div class="info">
-                        <h3>Patrick</h3>
-                        <span>date : 11 2026</span>
+                <div class="port-box mix inter">
+                    <div class="port-image">
+                        <img src="web5.jpg">
+                    </div>
+                    <div class="port-content">
+                        <h3>Tic Tac Toe Game</h3>
+                        <p>A two-palyer interactive Tic Tac Toe agme built using javascript that allows users to play
+                            turn-by-turn with win detection and a responsive UI.</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
                     </div>
                 </div>
-            </div>
-
-            <div class="box">
-                <i class="fas fa-quote-left"></i>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, itaque quas accusamus tenetur officiis
-                    sint earum numquam dolor aliquam temporibus corporis sit non ea! Necessitatibus?</p>
-
-                <div class="images">
-                    <img src="review3.jpg" alt="">
-
-                    <div class="info">
-                        <h3>Amelia</h3>
-                        <span>date : 11 2026</span>
+                <div class="port-box mix web">
+                    <div class="port-image">
+                        <img src="web6.webp">
+                    </div>
+                    <div class="port-content">
+                        <h3>Cheat Sheet Project</h3>
+                        <p>An organised reference tool that provides quick access to important information and notes
+                            through a clean and simple interface.</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
                     </div>
                 </div>
-            </div>
-
-        </div>
-    </section>
-
-    <section id="specialities" class="specialities">
-
-        <h1 class="heading">Our Specialities</h1>
-        <h3 class="title">Expert care across multiple medical fields</h3>
-
-        <div class="box-container">
-
-            <div class="box">
-                <i class="fa-solid fa-heart-pulse"></i>
-                <h3>Cardiology</h3>
-                <p>Heart disease diagnosis, treatment and preventive care.</p>
-            </div>
-
-            <div class="box">
-                <i class="fa-solid fa-brain"></i>
-                <h3>Neurology</h3>
-                <p>Advanced treatment for brain and nervous system disorders.</p>
-            </div>
-
-            <div class="box">
-                <i class="fa-solid fa-bone"></i>
-                <h3>Orthopedics</h3>
-                <p>Bone, joint and muscle care with modern techniques.</p>
-            </div>
-
-            <div class="box">
-                <i class="fa-solid fa-baby"></i>
-                <h3>Pediatrics</h3>
-                <p>Special healthcare services for infants and children.</p>
-            </div>
-
-            <div class="box">
-                <i class="fa-solid fa-user-doctor"></i>
-                <h3>General Medicine</h3>
-                <p>Complete medical consultation and primary healthcare.</p>
-            </div>
-
-            <div class="box">
-                <i class="fa-solid fa-hand-sparkles"></i>
-                <h3>Dermatology</h3>
-                <p>Skin, hair and nail treatments by expert specialists.</p>
-            </div>
-
-        </div>
-
-    </section>
-
-    <section id="appointment" class="appointment">
-        <h1 class="heading">Patient Appointment</h1>
-        <h3 class="title">Book Your Appointment Online</h3>
-
-        <div class="row">
-
-            <div class="images">
-                <img src="appointment.png" alt="">
-            </div>
-
-            <div class="form-container">
-                <form id="appointmentForm">
-
-                    <input type="text" name="from_name" placeholder="Full Name" required>
-                    <input type="email" name="from_email" placeholder="Email Address" required>
-                    <input type="number" name="phone" placeholder="Phone Number" required>
-                    <input type="number" name="age" placeholder="Age" required>
-
-                    <select name="gender" required>
-                        <option value="">Select Gender</option>
-                        <option>Male</option>
-                        <option>Female</option>
-                        <option>Other</option>
-                    </select>
-
-                    <select name="doctor" required>
-                        <option value="">Select Doctor</option>
-                        <option>Dr. John Doe</option>
-                        <option>Dr. Mira Callahan</option>
-                        <option>Dr. Zara Lim</option>
-                    </select>
-
-                    <input type="date" name="date" required>
-
-                    <textarea name="message" cols="30" rows="8" placeholder="Describe your health issue"></textarea>
-
-                    <input type="submit" value="Book Appointment">
-
-                </form>
-            </div>
-
-        </div>
-    </section>
-
-    <section id="contact" class="contact">
-        <h1 class="heading">Contact us</h1>
-        <h3 class="title">You can talk to us any time,</h3>
-
-        <div class="row">
-            <div class="images">
-                <img src="contact1.png" alt="">
-            </div>
-
-            <div class="form-container">
-                <form id="contactForm">
-                    <input type="text" id="cname" placeholder="Full name">
-                    <input type="email" id="cemail" placeholder="Email Address">
-                    <input type="number" id="cphone" placeholder="Phone Number">
-                    <textarea id="cmessage" cols="30" rows="10" placeholder="Your Message"></textarea>
-                    <input type="submit" value="send">
-                    <p id="cerror"></p>
-                    <p id="csuccess"></p>
-
-                </form>
             </div>
         </div>
     </section>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <section id="contact" class="contant">
+        <div class="main-text">
+            <span>Ask me question</span>
+            <h2>Contact Me</h2>
+        </div>
 
+       <form id="contact-form">
+            <input type="text" name="from_name"  placeholder="Your Name">
+            <input type="text"  name="from_email" placeholder="Your Email">
+            <input type="text"  name="subject"  placeholder="Your Address">
+            <input type="number"  name="phone" placeholder="Phone Number">
+            <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <div class="btn-box formBtn">
+                <button type="Submit" class="btn">Send Message</button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>Copyright &copy; 2026 by Priyansh || All Right Reserved.</p>
+        <img src="arrow-out-up-left-stroke-square.png">
+    </footer>
+
+    <script src="mixitup.min (1).js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script src="script.js"></script>
 </body>
