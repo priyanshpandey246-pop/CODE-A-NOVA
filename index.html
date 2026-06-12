@@ -4,83 +4,407 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather App</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="logo">
-            <img src="cloud.png">
-            Weather App
-        </div>
-        <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About this</a></li>
-            <li><a href="#">How to use?</a></li>
+    <header>
+        <div class="logo"><span>P</span>riyansh.</div>
+        <ul class="navlist">
+            <li><a href="#home" style="--i:1">Home</a></li>
+            <li><a href="#about" style="--i:2">About</a></li>
+            <li><a href="#services" style="--i:3">Services</a></li>
+            <li><a href="#skills" style="--i:4">Skills</a></li>
+            <li><a href="#portfolio" style="--i:5">Portfolio</a></li>
+            <li><a href="#contact" style="--i:6">Contact</a></li>
         </ul>
-        <div class="Search-box">
-            <input type="text" id="cityInput" placeholder="Search city or district....">
-            <button onclick="getWeather()">Search</button>
-        </div>
-    </nav>
-    <div class="container">
-        <main class="container mt-5">
-            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-                <div class="col">
-                    <div class="card mb-4 rounded-3 shadow-sm border-primary">
-                        <div class="card-header py-3 text-bg-primary border-primary">
-                            <h4 class="my-0 fw-normal">Temperature</h4>
-                        </div>
-                        <div class="card-body">
-                            <img src="temp.png" style="width: 100px; margin-bottom: 10px;">
-                            <h1 class="card-title" id="temperature">--C°</h1>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card mb-4 rounded-3 shadow-sm border-primary">
-                        <div class="card-header py-3 text-bg-primary border-primary">
-                            <h4 class="my-0 fw-normal">Humidity</h4>
-                        </div>
-                        <div class="card-body">
-                            <img src="humi2.png" style="width:100px; margin-bottom: 10px;">
-                            <h1 class="card-title" id="humidity">--%</h1>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card mb-4 rounded-3 shadow-sm border-primary">
-                        <div class="card-header py-3 text-bg-primary border-primary">
-                            <h4 class="my-0 fw-normal">Wind Speed</h4>
-                        </div>
-                        <div class="card-body">
-                            <img src="wind2.png" style="width:100px; margin-bottom: 10px;">
-                            <h1 class="card-title" id="windspeed">-- km/h</h1>
+        <i class='bx bx-menu' id="menu-icon"></i>
+    </header>
 
-                        </div>
-                    </div>
-                </div>
-                <div class="col d-flex justify-content-center weather-card">
-                    <div class="card mb-4 rounded-3 shadow-sm border-primary">
-                        <div class="card-header py-3 text-bg-primary border-primary">
-                            <h4 class="my-0 fw-normal">Weather Condition</h4>
-                        </div>
-                        <div class="card-body">
-                            <h1 class="card-title" id="condition">--</h1>
-                            <img id="WeatherImage" src="cloud.png" alt="weather"
-                                style="width: 100px; margin-top: 10px;">
-                        </div>
-                    </div>
-                </div>
-                <div id="forecast"></div>
+    <section id="home" class="home">
+        <div class="home-content">
+            <h1>Hi! I'm Priyansh Pandey </h1>
+            <div class="change-text">
+                <h3>And I"m</h3>
+                <h3>
+                    <span class="word">Web&nbsp;Designer</span>
+                    <span class="word">Frontend&nbsp;Developer</span>
+                    <span class="word">And&nbsp;aspiring&nbsp;data&nbsp;science</span>
+
+                </h3>
             </div>
 
-            <script src="script.js"></script>
-            <script>
-                console.log("HTML loaded");
-            </script>
+            <p>Frontend Developer Intern | Aspiring Full Stack Developer | Data Science Enthusiast, Passionate about
+                building responsive and user friendly web applications.</p>
+            <div class="info-box">
+                <div class="eamil-info">
+                    <h5>Email :</h5>
+                    <span>priyanshpandey246@gmail.com</span>
+                </div>
+
+            </div>
+
+            <div class="btn-box">
+                <a class="btn" href="resume.pdf">Download CV</a>
+                <a href="mailto:priyanshpandey246@gmail.com" class="btn">Hire me Now</a>
+            </div>
+
+            <div class="social-icons">
+                <a href="https://www.instagram.com/priyansh_pandey1889?igsh=MW5zcTBwc3psY2kwcw=="><i
+                        class='bx bxl-instagram'></i></a>
+                <a
+                    href="https://www.linkedin.com/in/priyansh-pandey-39b146314?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/priyanshpandey246-pop"><i class='bx bxl-github'></i></a>
+            </div>
+        </div>
+
+        <div class="home-image">
+            <div class="img-box">
+                <img src="bio.jpeg">
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+    <section id="about" class="about">
+        <div class="img-about">
+            <img src="bio.jpeg">
+            <div class="info-about1">
+                <span>3+</span>
+                <p>Projects <br> Completed</p>
+            </div>
+            <div class="info-about2">
+                <span>3</span>
+                <p>Internship Completed</p>
+            </div>
+            <div class="info-about3">
+                <span>100+</span>
+                <p>Hours of Learning</p>
+            </div>
+        </div>
+
+        <div class="about-content">
+            <span>Let me Introduce Myself</span>
+            <h2>About Me</h2>
+            <h3>Frontend Developer & Lifelong Learner</h3>
+            <p>I am a passionate Frontend Developer with a strong interest in creating responsive and user-friendly web
+                applications. I have completed multiple projects including a Healthcare Management System, Netflix
+                Clone, Weather App, Tic Tac Toe Game, and Dodge Game. Along with frontend development, I am also
+                exploring React.js and Data Science to expand my technical skills. I enjoy learning new technologies and
+                building projects that solve real-world problems.</p>
+
+            <div class="btn-box">
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="services" class="services">
+        <div class="main-text">
+            <span>What i will do for you</span>
+            <h2>Our services</h2>
+        </div>
+
+        <div class="section-services">
+            <div class="service-box">
+                <a href="#"><i class="bx bx-layer service-icon"></i></a>
+                <h3>Frontend Development</h3>
+                <p>Creating responsive and user-friendly websites using HTML, CSS, JavaScript, and React.js with a focus
+                    on performance and modern design.</p>
+                <div class="btn-box service-btn">
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+            <div class="service-box">
+                <a href="#"><i class="bx bx-code-alt service-icon"></i></a>
+                <h3>Web Design</h3>
+                <p>Designing clean, modern, and visually appealing website layouts that provide an engaging user
+                    experience across all devices.</p>
+                <div class="btn-box service-btn">
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+            <div class="service-box">
+                <a href="#"><i class="bx bx-desktop service-icon"></i></a>
+                <h3>Responsive Website</h3>
+                <p>Building mobile-friendly websites that adapt seamlessly to desktops, tablets, and smartphones for the
+                    best user experience.</p>
+                <div class="btn-box service-btn">
+                    <a href="#" class="btn">Read More</a>
+                </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="main-text">
+            <span>technical and professional</span>
+            <h2>My Skills</h2>
+        </div>
+
+        <div class="skill-main">
+            <div class="skill-left">
+                <h3>Technical Skills</h3>
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>HTML</p>
+                        <P>85%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="html"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>css</p>
+                        <P>90%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="css"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>JavaScript</p>
+                        <P>62%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="javascript"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>React.js</p>
+                        <P>40%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="react"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-right">
+                <h3>Professional Skills</h3>
+                <div class="professional">
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="90"></div>
+                        <div class="text">
+                            <big>90%</big>
+                            <small>Team Work</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="80"></div>
+                        <div class="text">
+                            <big>80%</big>
+                            <small>Creativity</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="55"></div>
+                        <div class="text">
+                            <big>55%</big>
+                            <small>Project Management</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="70"></div>
+                        <div class="text">
+                            <big>70%</big>
+                            <small>Communication</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="main-text">
+            <span>My Professional Journey</span>
+            <h2>Experience</h2>
+        </div>
+
+        <div class="experience-container">
+
+            <div class="experience-box">
+                <h3>Frontend Development Intern</h3>
+                <h4>Code A Nova</h4>
+                <p>
+                    Developed responsive web pages using HTML, CSS and JavaScript.
+                    Worked on real-world frontend projects and improved UI/UX skills.
+                </p>
+            </div>
+
+            <div class="experience-box">
+                <h3>Frontend Development Intern</h3>
+                <h4>Code Alpha</h4>
+                <p>
+                    Built portfolio projects, improved problem-solving skills and
+                    gained practical experience in web development.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="qualification" class="qualification">
+        <div class="main-text">
+            <span>My Education Journey</span>
+            <h2>Qualifications</h2>
+        </div>
+
+        <div class="qualification-container">
+
+            <div class="qualification-box">
+                <h3>BCA (Pursuing)</h3>
+                <h4>Delhi Skill and Entrepreneurship University (DSEU)</h4>
+                <p>
+                    Currently pursuing BSCA with a focus on web development, programming,
+                    and modern technologies. Continuously improving skills in Frontend
+                    Development, React.js, and Data Science.
+                </p>
+            </div>
+
+            <div class="qualification-box">
+                <h3>Class 12th</h3>
+                <h4>CBSE Board</h4>
+                <p>
+                    Completed higher secondary education with a focus on academic
+                    excellence and technical learning.
+                </p>
+            </div>
+
+            <div class="qualification-box">
+                <h3>Class 10th</h3>
+                <h4>CBSE Board</h4>
+                <p>
+                    Built a strong foundation in mathematics, science, and problem-solving skills.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="main-text">
+            <span>What i will do for you</span>
+            <h2>Latest Project</h2>
+        </div>
+
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="button" data-filter="all">All</button>
+                <button class="button" data-filter=".product">Product</button>
+                <button class="button" data-filter=".inter">Interacting</button>
+                <button class="button" data-filter=".web">Web app</button>
+            </div>
+
+            <div class="portfolio-gallery">
+                <div class="port-box mix product">
+                    <div class="port-image">
+                        <img src="web1.jpg">
+                    </div>
+                    <div class="port-content">
+                        <h3>Weather App</h3>
+                        <p>A responsive weather applications that fetches real-time weather data using API and shows
+                            tempeerature, humidity, and loc ation details.</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+                <div class="port-box mix product">
+                    <div class="port-image">
+                        <img src="web2.jpg">
+                    </div>
+                    <div class="port-content">
+                        <h3>Healthcare Management System</h3>
+                        <p>A responsive healthcare management web application that helps users book doctor appointment,
+                            view doctor details, and manage patient information in a simple and organized interface</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+                <div class="port-box mix inter">
+                    <div class="port-image">
+                        <img src="web3.jpg">
+                    </div>
+                    <div class="port-content">
+                        <h3>Netflix Clone</h3>
+                        <p>A responsive Netflix homepage clone that replicates the UI layout with movie banners,
+                            categories, and a modern streaming platform design using HTML and CSS</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+                <div class="port-box mix inter">
+                    <div class="port-image">
+                        <img src="web4.jpeg">
+                    </div>
+                    <div class="port-content">
+                        <h3>Dodge Game</h3>
+                        <p>An interactive browser-based game where players control a character and avoid incoming
+                            obstacles to achieve the highest possible score.Built using HTML,CSS and jaavscript.</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+                <div class="port-box mix inter">
+                    <div class="port-image">
+                        <img src="web5.jpg">
+                    </div>
+                    <div class="port-content">
+                        <h3>Tic Tac Toe Game</h3>
+                        <p>A responsive Tic Tac Toe game with winner detection and restart functionality, providing an
+                            engaging two-player gaming experience.</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+                <div class="port-box mix web">
+                    <div class="port-image">
+                        <img src="web6.webp">
+                    </div>
+                    <div class="port-content">
+                        <h3>Cheat sheet projects</h3>
+                        <p>A simple and user-friendly cheat sheet application designed to provide quick acess to
+                            important concepts, commands, and refernce notes in an organized format.</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contant">
+        <div class="main-text">
+            <span>Ask me question</span>
+            <h2>Contact Me</h2>
+        </div>
+
+        <form id="contact-form">
+            <input type="text" name="from_name" placeholder="Your Name">
+            <input type="text" name="from_email" placeholder="Your Email">
+            <input type="text" name="subject" placeholder="Subject">
+            <input type="number" name="phone" placeholder="Phone Number">
+            <textarea name="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <div class="btn-box formBtn">
+                <button type="Submit" class="btn">Send Message</button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>Copyright &copy; 2026 by Priyansh || All Right Reserved.</p>
+        <img src="arrow-out-up-left-stroke-square.png">
+    </footer>
+
+    <script src="mixitup.min (1).js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
