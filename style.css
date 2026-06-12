@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main{
+    margin-top: 30px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: linear-gradient(90deg, #6797ef, #6797ef);
+    color: darkblue;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: 0,3s;
+}
+.nav-links a:hover{
+    color: #ffdd57 !important;
+}
+.Search-box{
+    display: flex;
+    gap: 10px;
+}
+.Search-box input{
+    padding: 6px 10px;
+    border: none !important;
+    border-radius: 5px;
+    outline: none;
+}
+.Search-box button{
+    padding: 6px 12px;
+    border: none !important;
+    background: #ffdd57;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.Search-box button:hover{
+    background: #ffc107 !important;
+}
+.weather-card{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+}
+.weather-card .card{
+    width: 350px;
+}
+.forecast-container {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 15px;
+    margin-top: 20px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+    max-width: 100%;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    scroll-snap-type: x mandatory;
+}
+.forecast-container div{
+    min-width: 140px;
+    flex:0 0 auto;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    text-align: center;
+    background: white;
+    scroll-snap-align: start;
+}
